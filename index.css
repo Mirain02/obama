@@ -297,7 +297,7 @@ body {
 .krug1{
     width: 345px;
     height: 345px;
-    background-image: url('./imgFour.png');
+    background-image: url('./imgSeven.png');
     padding-top: 123px;
     background-repeat: no-repeat;
 }
@@ -305,7 +305,7 @@ body {
 .krug2{
     width: 345px;
     height: 345px;
-    background-image: url('./imgFour.png');
+    background-image: url('./imgSeven.png');
     padding-top: 105px;
     background-repeat: no-repeat;
 }
@@ -313,7 +313,7 @@ body {
 .krug3{
     width: 345px;
     height: 345px;
-    background-image: url('./imgFour.png');
+    background-image: url('./imgSeven.png');
     padding-top: 132px;
     background-repeat: no-repeat;
 }
@@ -385,6 +385,7 @@ body.dark-mode .vsekrugi p {
 body.dark-mode .theme-toggle {
     background-color: #4A4A4A; 
 }
+
 
 
 
