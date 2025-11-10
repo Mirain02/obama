@@ -1,8 +1,10 @@
 body {
-    background-color: #F0F3F7; 
+    background-color: #F0F3F7;
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #000000;
 }
 
 .container {
@@ -16,7 +18,7 @@ body {
     background-color: #FFFFFF;
     border-radius: 20px;
     padding: 20px;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 .oneslide header {
@@ -27,7 +29,7 @@ body {
 
 .oneslide h1 {
     font-family: "Inter", sans-serif;
-    font-size: 45px; 
+    font-size: 45px;
     margin: 0;
     color: #000000;
 }
@@ -40,10 +42,10 @@ body {
 }
 
 .zero, .one {
-    list-style: none; 
-    font-family: "Inter", sans-serif; 
-    font-size: 14px; 
-    color: #F0F3F7; 
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #F0F3F7;
     text-align: center;
     display: flex;
     gap: 10px;
@@ -52,9 +54,9 @@ body {
 }
 
 .rounded-square1 {
-    width: 147px; 
-    height: 28px; 
-    background-color: #97AAC6; 
+    width: 147px;
+    height: 28px;
+    background-color: #97AAC6;
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -62,9 +64,9 @@ body {
 }
 
 .rounded-square2 {
-    width: 99px; 
-    height: 28px; 
-    background-color: #97AAC6; 
+    width: 99px;
+    height: 28px;
+    background-color: #97AAC6;
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -72,9 +74,9 @@ body {
 }
 
 .rounded-square3 {
-    width: 111px; 
-    height: 28px; 
-    background-color: #97AAC6; 
+    width: 111px;
+    height: 28px;
+    background-color: #97AAC6;
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -82,9 +84,9 @@ body {
 }
 
 .rounded-square4 {
-    width: 154px; 
-    height: 28px; 
-    background-color: #97AAC6; 
+    width: 154px;
+    height: 28px;
+    background-color: #97AAC6;
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -92,9 +94,9 @@ body {
 }
 
 .rounded-square5 {
-    width: 243px; 
-    height: 28px; 
-    background-color: #97AAC6; 
+    width: 243px;
+    height: 28px;
+    background-color: #97AAC6;
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -134,14 +136,14 @@ body {
 
 .oneslide p {
     font-family: "Inter", sans-serif;
-    font-size: 16px; 
+    font-size: 16px;
     color: #FFFFFF;
     margin: 0;
 }
 
 .oneslide h2 {
-    font-family: "Roboto", sans-serif; 
-    font-size: 22px; 
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
     color: #FFFFFF;
     margin: 0;
 }
@@ -156,18 +158,18 @@ body {
 }
 
 .rounded-square6, .rounded-square7, .rounded-square8 {
-    width: 440px; 
-    height: 140px; 
+    width: 440px;
+    height: 140px;
 }
 
 .rounded-square9 {
-    width: 280px; 
-    height: 230px; 
+    width: 280px;
+    height: 230px;
 }
 
 .rounded-square10 {
-    width: 282px; 
-    height: 230px; 
+    width: 282px;
+    height: 230px;
 }
 
 .rounded-square6 .text p, .rounded-square7 .text p, .rounded-square8 .text p {
@@ -175,11 +177,11 @@ body {
 }
 
 .rounded-square9 .text p {
-    margin-top: 80px; 
+    margin-top: 80px;
 }
 
 .rounded-square10 .text p {
-    margin-top: 40px; 
+    margin-top: 40px;
 }
 
 .rounded-square6 .icon, .rounded-square7 .icon, .rounded-square8 .icon, .rounded-square9 .icon, .rounded-square10 .icon {
@@ -188,8 +190,8 @@ body {
 
 .twoslide {
     background-color: #2D6AC8;
-    width: 1160px; 
-    height: 532px; 
+    width: 1160px;
+    height: 532px;
     border-radius: 20px;
     margin-top: 20px;
     padding: 20px;
@@ -201,7 +203,7 @@ body {
 }
 
 .golova {
-    font-family: "Inter", sans-serif; 
+    font-family: "Inter", sans-serif;
     font-size: 45px;
     width: 445px;
     height: 54px;
@@ -222,7 +224,7 @@ body {
 .two, .three {
     display: flex;
     gap: 10px;
-    font-family: "Inter", sans-serif; 
+    font-family: "Inter", sans-serif;
     font-size: 14px;
     color: #2D6AC8;
     margin: 0;
@@ -297,42 +299,44 @@ body {
 .krug1{
     width: 345px;
     height: 345px;
-    background-image: url(./imgseven.png);
-    padding-top: 123px;
+    background-image: url(imgseven.png);
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
+    padding-top: 123px;
 }
 
 .krug2{
     width: 345px;
     height: 345px;
-    background-image: url(./imgseven.png);
-    padding-top: 105px;
+    background-image: url(imgseven.png);
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
+    padding-top: 105px;
 }
 
 .krug3{
     width: 345px;
     height: 345px;
-    background-image: url(./imgseven.png);
-    padding-top: 132px;
+    background-image: url(imgseven.png);
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
-}
-body {
-    transition: background-color 0.3s ease, color 0.3s ease;
-    color: #000000; 
+    padding-top: 132px;
 }
 
 body.dark-mode {
-    background-color: #1E1E1E; 
+    background-color: #1E1E1E;
     color: #FFFFFF;
 }
 
 body.dark-mode .oneslide {
-    background-color: #2D2D2D; 
+    background-color: #2D2D2D;
 }
 
 body.dark-mode .oneslide h1 {
-    color: #FFFFFF; 
+    color: #FFFFFF;
 }
 
 body.dark-mode .rounded-square1,
@@ -340,15 +344,16 @@ body.dark-mode .rounded-square2,
 body.dark-mode .rounded-square3,
 body.dark-mode .rounded-square4,
 body.dark-mode .rounded-square5 {
-    background-color: #4A4A4A; 
+    background-color: #4A4A4A;
     color: #FFFFFF;
 }
+
 body.dark-mode .twoslide {
     background-color: #0F3A7A;
 }
 
 body.dark-mode .golova {
-    color: #FFFFFF; 
+    color: #FFFFFF;
 }
 
 body.dark-mode .rounded-square11,
@@ -356,12 +361,12 @@ body.dark-mode .rounded-square12,
 body.dark-mode .rounded-square13,
 body.dark-mode .rounded-square14,
 body.dark-mode .rounded-square15 {
-    background-color: #CCCCCC; 
-    color: #000000; 
+    background-color: #CCCCCC;
+    color: #000000;
 }
 
 body.dark-mode .vsekrugi p {
-    color: #FFFFFF; 
+    color: #FFFFFF;
 }
 
 .theme-toggle {
@@ -371,10 +376,10 @@ body.dark-mode .vsekrugi p {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
     border: none;
     cursor: pointer;
-    font-size: 20px; 
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -383,16 +388,5 @@ body.dark-mode .vsekrugi p {
 }
 
 body.dark-mode .theme-toggle {
-    background-color: #4A4A4A; 
+    background-color: #4A4A4A;
 }
-
-
-
-
-
-
-
-
-
-
-
