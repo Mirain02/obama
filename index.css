@@ -3,8 +3,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    color: #000000; 
 }
 
 .container {
@@ -299,31 +297,29 @@ body {
 .krug1{
     width: 345px;
     height: 345px;
-    background-image: url(imgseven.png);
+    background-image: url(./imgseven.png);
     padding-top: 123px;
     background-repeat: no-repeat;
-    background-size: contain; /* добавляю, чтобы круг точно влез */
-    background-position: center;
 }
 
 .krug2{
     width: 345px;
     height: 345px;
-    background-image: url(imgseven.png);
+    background-image: url(./imgseven.png);
     padding-top: 105px;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
 }
 
 .krug3{
     width: 345px;
     height: 345px;
-    background-image: url(imgseven.png);
+    background-image: url(./imgseven.png);
     padding-top: 132px;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+}
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #000000; 
 }
 
 body.dark-mode {
