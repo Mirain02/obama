@@ -299,25 +299,31 @@ body {
 .krug1{
     width: 345px;
     height: 345px;
-    background-image: url(./img/imgSeven.png); 
+    background-image: url(imgseven.png);
     padding-top: 123px;
     background-repeat: no-repeat;
+    background-size: contain; /* добавляю, чтобы круг точно влез */
+    background-position: center;
 }
 
 .krug2{
     width: 345px;
     height: 345px;
-    background-image: url(./img/imgSeven.png);
+    background-image: url(imgseven.png);
     padding-top: 105px;
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .krug3{
     width: 345px;
     height: 345px;
-    background-image: url(./img/imgSeven.png);
+    background-image: url(imgseven.png);
     padding-top: 132px;
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 body.dark-mode {
@@ -383,6 +389,7 @@ body.dark-mode .vsekrugi p {
 body.dark-mode .theme-toggle {
     background-color: #4A4A4A; 
 }
+
 
 
 
