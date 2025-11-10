@@ -305,30 +305,40 @@ background-image: url(imgseven.png);
 background-size: contain;
 background-position: center;
 background-repeat: no-repeat;
-position: relative;
-margin-bottom: 100px;
-}
-
-.krug1 p,
-.krug2 p,
-.krug3 p {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-width: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
 text-align: center;
-margin: 0;
-}
+padding: 20px;
 
+}
+.vsekrugi p {
+font-size: 22px;
+margin: 0;
+padding: 0;
+color: #FFFFFF;
+max-width: 80%;
+line-height: 1.4; 
+
+}
 .twoslide {
 background-color: #2D6AC8;
 width: 1160px;
 height: auto; 
+min-height: 532px;
 border-radius: 20px;
 margin-top: 20px;
 padding: 20px;
 box-sizing: border-box;
+overflow: hidden;
+}
+
+.vsekrugi {
+display: flex;
+justify-content: space-between; 
+gap: 40px;
+margin-top: 60px;
+align-items: flex-start; 
 }
 
 body.dark-mode {
@@ -395,4 +405,5 @@ body.dark-mode .vsekrugi p {
 body.dark-mode .theme-toggle {
     background-color: #4A4A4A;
 }
+
 
