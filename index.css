@@ -306,12 +306,8 @@ background-size: contain;
 background-position: center;
 background-repeat: no-repeat;
 position: relative;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 0;
 }
-1
+
 .krug1 p,
 .krug2 p,
 .krug3 p {
@@ -327,8 +323,7 @@ margin: 0;
 .twoslide {
 background-color: #2D6AC8;
 width: 1160px;
-height: auto;
-min-height: 532px;
+height: auto; 
 border-radius: 20px;
 margin-top: 20px;
 padding: 20px;
