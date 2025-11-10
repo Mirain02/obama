@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #000000; 
 }
 
 .container {
@@ -297,7 +299,7 @@ body {
 .krug1{
     width: 345px;
     height: 345px;
-    background-image: url(./imgSeven.png);
+    background-image: url(./img/imgseven.png);  /* lowercase */
     padding-top: 123px;
     background-repeat: no-repeat;
 }
@@ -305,7 +307,7 @@ body {
 .krug2{
     width: 345px;
     height: 345px;
-    background-image: url(./imgSeven.png);
+    background-image: url(./img/imgseven.png);
     padding-top: 105px;
     background-repeat: no-repeat;
 }
@@ -313,13 +315,9 @@ body {
 .krug3{
     width: 345px;
     height: 345px;
-    background-image: url(./imgSeven.png);
+    background-image: url(./img/imgseven.png);
     padding-top: 132px;
     background-repeat: no-repeat;
-}
-body {
-    transition: background-color 0.3s ease, color 0.3s ease;
-    color: #000000; 
 }
 
 body.dark-mode {
@@ -385,7 +383,6 @@ body.dark-mode .vsekrugi p {
 body.dark-mode .theme-toggle {
     background-color: #4A4A4A; 
 }
-
 
 
 
